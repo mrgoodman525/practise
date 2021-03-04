@@ -1,0 +1,47 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+h1{
+	text-align: center;
+}
+.card{
+	
+	width: 20vw;
+	border: 2px slategray solid ;
+ 	display: inline-block;
+	 margin: 5px;
+}
+img{
+	width: 100%;
+	height: 20vh;
+}
+
+h3{
+	padding-left: 3px;
+	margin-top: 0;
+	margin-bottom: 2px ;
+}
+h4{
+	
+	padding-left: 3px;
+	margin-top: 2px;
+}
+p{
+	
+	padding-left: 3px;
+}
+
+@media screen and (max-width:560px){
+	.card{
+		width: 40vw;
+		
+	}
+}
+@media screen and (max-width:992px){
+	.card{
+		width: 30vw;
+	}
+}
+
