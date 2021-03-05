@@ -9,20 +9,19 @@ body{
     flex-wrap: wrap;
 
   
-    /* flex-direction: column-reverse ; */
     
-    align-content: center;
-    justify-content: center;
+    
+    
 }
 
 
 .card{
 
 	
-	width: 150px;
+	
 	border: 2px rgb(112, 128, 144) solid ;
 	 margin: 5px;
-	
+	flex-basis: 300px;
 	
 }
 
